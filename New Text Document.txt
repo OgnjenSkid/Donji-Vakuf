@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Јован Јовановић Змај</title>
+  <link rel="stylesheet" href="stil.css" />
+</head>
+<body>
+  <header>
+    <h1>Јован Јовановић Змај</h1>
+    <nav>
+      <ul>
+        <li><a href="#biografija">Биографија</a></li>
+        <li><a href="#fotografije">Фотографије</a></li>
+        <li><a href="#odlomci">Песме</a></li>
+        <li><a href="#zanimljivosti">Занимљивости</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="biografija">
+      <h2>Биографија</h2>
+      <p>
+        Лазар Лаза Костић (Ковиљ, 31. јануар / 12. фебруар 1841 — Беч, 26. новембар 1910) био је српски ерудита. Бавио се књижевношћу (поезијом и прозом), правним наукама, новинарством и естетиком. По образовању је био доктор правних наука. Као политички човек и јавни радник Костић је вршио снажан утицај на српско друштво свога времена. Он је један од оснивача и вођа „Уједињене омладине“,
+      </p>
+    </section>
+
+    <section id="fotografije">
+      <h2>Фотографије</h2>
+      <img src="kosta.jpg" alt="Laza Kostic height="850" width="400" />
+      <img src="kosta1.jpg" alt="Kosta" height="870" width="400" />
+      <img src="kosta3.jpg" alt="Kosta1" height="870" width="400" />
+    </section>
+
+    <section id="odlomci">
+      <h2>Песме</h2>
+      <blockquote>
+        „Деца расту као трава,<br>
+        свако јутро друга глава...“
+      </blockquote>
+      <blockquote>
+        „Ђаче моје, руко моја,<br>
+        ко ће знати шта нас чека —<br>
+        ал’ што будем добар ђак,<br>
+        то ми нико узет нека!“
+      </blockquote>
+    </section>
+
+    <section id="zanimljivosti">
+      <h2>Занимљивости</h2>
+      <ul>
+        <li>Надимак „Змај“ је узео по „Змајевској улици“ у Београду, у којој је живео.</li>
+        <li>Био је лекар по струци, али се више прославио као песник и хуманиста.</li>
+        <li>Основао је више хумористичних листова, укључујући и чувени „Змај“.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Сва права задржана. Сајт о Јовану Јовановићу Змају.</p>
+  </footer>
+</body>
+</html>
